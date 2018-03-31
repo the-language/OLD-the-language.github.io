@@ -1,0 +1,14 @@
+#!/bin/sh
+cd $(dirname $0)
+githubio=$PWD
+cd $githubio/../the-language
+lang=$PWD
+cd $githubio
+
+d=$lang/述/語.scrbl
+
+rm -fr *.css *.js *.html *.md
+
+scribble --dest-name index.html $d
+
+scribble --markdown --dest-name README.md $d
