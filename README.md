@@ -3,8 +3,7 @@
 zaoqi
 
 ```racket
- #lang lang package:                                                                      
-           [drracket-plugin-lib](https://pkgs.racket-lang.org/package/drracket-plugin-lib)
+ #lang lang package: [lang](https://pkgs.racket-lang.org/package/lang)
 ```
 
 這裏使用racket語法。 這裏是一般的類型。
