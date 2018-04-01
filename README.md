@@ -6,7 +6,7 @@ zaoqi
  #lang lang package: [lang](https://pkgs.racket-lang.org/package/lang)
 ```
 
-這裏使用racket語法。
+## 1. 物
 
 ```racket
 (等？ 甲 乙) -> 陰陽？
